@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Login Form</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="lioncu.jpg">
+    <meta name="viewport" content="width=device-width , intial-scale=1.0,maximum-scale=2.0 , user-scalable=yes">
+    <link rel="stylesheet " href="login.css "> </head>
+
+<body>
+    <div class="login">
+        <div class="card">
+            <div class="innercard">
+                <div class="cardf">
+                    <h2>SIGNIN </h2>
+                    <form onsubmit="signin(event)">
+                        <input onchange="inpmail(event)" type="email" id="mail_inp" class="inputbox" placeholder="Email Id" required>
+                        <input type="password" onchange="inppass(event)" id="pass_inp" class="inputbox" placeholder="password" required>
+                        <button type="submit" class="btn">Submit</button>
+                        <div class="cb"> <input type="checkbox"><span>Remember me</span></div>
+                    </form>
+                    <a class="link" href="mailto:sote3297@gmail.com">Forgot Password ?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="signin.js">
+</script>

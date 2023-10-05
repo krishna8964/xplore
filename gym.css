@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+.section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(mw1.jpg);
+    object-fit: cover;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.logo {
+    margin: 0 20px;
+    height: 60px;
+    float: left;
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: pink;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.menubar {
+    background: transparent;
+    float: right;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.menubar ul {
+    position: sticky;
+    display: flex;
+    list-style: none;
+    top: 0;
+    left: 0;
+}
+
+.menubar li {
+    display: flex;
+    width: 150px;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 10px 10px;
+    padding: 25px 30px;
+}
+
+.menubar ul li a:hover {
+    color: pink;
+}
+
+.content h2 {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    margin: 0;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+hr {
+    background-color: pink;
+    width: 50%;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+}
+
+span {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    color: pink;
+}
+
+.hrr {
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.9);
+    position: relative;
+    padding: 5%;
+}
+
+.hrr hr {
+    position: relative;
+    width: 70%;
+    margin: 15px auto;
+    color: pink;
+}
+
+.hrr h1 {
+    color: pink;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+.page2 {
+    height: 115vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.color {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(closest-side at 95% 30%, pink, pink, lightpink, rgba(0, 0, 0, 0.9));
+}
+
+.color h1 {
+    color: pink;
+    left: 2%;
+    letter-spacing: 3px;
+    font-weight: 500;
+    position: absolute;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+}
+
+.color span {
+    position: absolute;
+    left: 30%;
+}
+
+.table {
+    position: relative;
+    top: 10%;
+    margin-left: 9%;
+}
+
+.list {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.list1 {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-left: 5%;
+}
+
+.color1 {
+    height: 140vh;
+    width: 100%;
+    background: radial-gradient(closest-side at 05% 27%, pink, pink, lightpink, rgba(0, 0, 0, 0.9));
+}
+
+.color1 h1 {
+    color: pink;
+    left: 60%;
+    letter-spacing: 3px;
+    font-weight: 500;
+    position: absolute;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+}
+
+.color1 span {
+    position: absolute;
+    left: 30%;
+}
+
+.table1 {
+    position: relative;
+    top: 10%;
+    margin-left: 60%;
+}
+
+.list2 {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.list3 {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-left: 5%;
+}
+
+dl,
+dt,
+dd {
+    color: pink;
+}
+
+.foot {
+    height: 25vh;
+    background: black;
+    width: 100%;
+}
+
+.about {
+    position: relative;
+    top: 50%;
+}
+
+.about h6 {
+    position: absolute;
+    font-size: 17px;
+    color: pink;
+    top: 48%;
+    left: 50%;
+    font-weight: 400;
+}
+
+.about a {
+    color: pink;
+    left: -37%;
+    position: relative;
+    text-decoration: none;
+}

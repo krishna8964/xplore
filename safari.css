@@ -1,0 +1,281 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.fix {
+    clear: both;
+    overflow: hidden;
+    box-sizing: border-box;
+    right: 0;
+    bottom: 0;
+    height: 98vh;
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    height: 98vh;
+    width: 100%;
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.nava {
+    background: transparent;
+    box-sizing: border-box;
+    position: absolute;
+    padding: 30px 110px;
+    width: 99%;
+}
+
+.logo {
+    margin: 0 30px;
+    float: left;
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Chewy', cursive;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #f5bb00;
+}
+
+.menua {
+    float: right;
+    list-style: none;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.menua li {
+    display: inline-flex;
+    margin: 0 10px;
+}
+
+.menua li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Chewy', cursive;
+}
+
+.menua li.active a {
+    color: #f5bb00
+}
+
+.menua li a:hover {
+    color: #f5bb00;
+}
+
+.banner {
+    position: absolute;
+    top: 38%;
+    left: 40%;
+    text-align: center;
+}
+
+.banner h2 {
+    color: white;
+    font-size: 80px;
+    margin: 0;
+}
+
+.banner h2 span {
+    color: #f5bb00;
+}
+
+.banner p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 5%;
+    background: transparent;
+    font-size: 20px;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.page2 {
+    width: 100%;
+    height: 200vh;
+    background: #fff;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+}
+
+.content1 {
+    padding-top: 100px;
+}
+
+.content1 h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.content1 h3 {
+    font-size: 38px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.contentarea p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Chewy', cursive;
+}
+
+#service {
+    width: 100%;
+    height: 400vh;
+    background: white;
+}
+
+.title {
+    text-align: center;
+    padding: 100px;
+}
+
+.title h2 {
+    margin: auto;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: orange;
+    font-weight: 200;
+}
+
+.national {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.park {
+    flex-basis: 60%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.park img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), orange);
+    opacity: 0;
+    transition: 1s;
+}
+
+.park:hover .overlay {
+    opacity: 1;
+}
+
+.desc {
+    width: 80%;
+    position: absolute;
+    text-decoration: none;
+    bottom: 0;
+    opacity: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    transition: 1s;
+}
+
+hr {
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 40%;
+}
+
+.desc p {
+    font-size: 14px;
+}
+
+.desc .link {
+    text-decoration: none;
+    color: white;
+}
+
+.park:hover .desc {
+    bottom: 30%;
+    opacity: 1;
+}
+
+.footer {
+    height: 30vh;
+    background: linear-gradient(to right, #FFE4B5, rgba(255, 165, 0, 0.7), #FF8C00);
+    opacity: 1;
+    width: 100%;
+}
+
+.about {
+    position: relative;
+    top: 30%;
+    margin-left: 45%;
+    opacity: 1;
+}
+
+.about h6 {
+    position: absolute;
+    font-size: 17px;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.about a {
+    position: relative;
+    font-size: 15px;
+    opacity: 1;
+    left: -25%;
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
+}

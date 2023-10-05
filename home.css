@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 50vh;
+}
+
+header {
+    position: fixed;
+    background: #262626;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    justify-content: space-between;
+    padding: 33px 100px;
+    z-index: 1;
+}
+
+header .home {
+    position: relative;
+    font-weight: 300;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: poppins;
+    letter-spacing: 5px;
+    left: 15%;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+header ul {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+    margin: 0px 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.bannerarea {
+    width: 100%;
+    height: 400px;
+    position: fixed;
+    top: 100px;
+    background-image: url(home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerarea h2 {
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: poppins;
+    position: absolute;
+    left: 43%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+.contentarea {
+    width: 99.1vw;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 500px;
+    background: #ebebeb;
+    height: 900px;
+}
+
+.contentarea h2 {
+    font-family: poppins;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    font-size: 34px;
+    top: 3%;
+    text-align: center;
+    font-weight: 500;
+    left: 38%;
+    position: absolute;
+    margin: 0;
+}
+
+.contentarea p {
+    font-family: poppins;
+    position: absolute;
+    top: 20%;
+    left: 18%;
+    font-size: 18px;
+}
+
+.contact {
+    background: rgba(0, 0, 0, 0.8);
+    width: 99.1vw;
+    height: 25vh;
+}
+
+h6 {
+    font-size: 17px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 100%;
+    left: 0;
+    flex-wrap: wrap;
+    text-decoration: none;
+    opacity: 1;
+    font-weight: 400;
+}
+
+a {
+    position: relative;
+    font-size: 15px;
+    opacity: 1;
+    left: 0;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+}
